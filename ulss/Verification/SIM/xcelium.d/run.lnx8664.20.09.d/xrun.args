@@ -1,0 +1,22 @@
+//
+// File created by:  xrun
+// Do not modify this file
+//
+-access
++rwc
+-f
+compile_list.f
+-coverage
+all
+-covdut
+rate_limiter_16to4
+-covworkdir
+/cov_work
+-covoverwrite
+-covfile
+./cov_files/cov_cmd.cf
+-uvmhome
+CDNS-1.1d
+-seed
+1021
++UVM_TESTNAME=concurrent_stream_test
